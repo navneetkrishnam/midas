@@ -1,0 +1,658 @@
+.header_logo_image_1{	
+	position: absolute;
+	display: block;
+	top: 0px;
+	left: -350px;
+	width: 675px;
+	padding-left: 400px;
+	padding-right: 120px;
+	height: 79px;
+	background: url("../images/curvedsstyle.png") 100% 50% no-repeat;
+	background-position: right top;
+	background-size: auto 100%;
+}
+
+.header_logo_image_2{
+	display: none;
+}
+
+.headnavigationmenu:before{
+	height:50px;
+	width: 100%;
+	background: #0096d6;
+	content: '';
+	margin: 0px;
+}
+
+.navbar-inverse{
+	background-color: black;		
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color: #FFFFFF;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+
+.navbar-inverse .navbar-toggle {
+  border-color: #000000;
+  background-color: #000;
+}
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+  background-color: #333;
+}
+
+.bodyContent{
+	background-color: black;
+}
+
+ .navigationitem{
+ 	padding-left: 10px;
+ 	padding-right: 10px;
+ }
+
+.w3-border-0{border:0!important}
+.w3-border{border:1px solid #0096d6!important}
+.w3-border-top{border-top:1px solid #0096d6!important}.w3-border-bottom{border-bottom:1px solid #0096d6!important}
+.w3-border-left{border-left:1px solid #0096d6!important}.w3-border-right{border-right:1px solid #0096d6!important}
+
+.productslist{
+	margin: 0 auto;
+	padding: 2%;
+}
+
+hr{
+	border: 0;
+	height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+.footer{
+	background-color: black;
+}
+
+.navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-form {
+  border-color: #000000;
+}
+
+.aboutusmenu:hover .aboutusmenulink:hover{
+	color: #008fcc;	
+}
+
+.productsmenu:hover .productsmenulink:hover{
+	color: #008fcc;
+	
+}
+
+.servicesmenu:hover .servicesmenulink:hover{
+	color: #008fcc;
+	
+}
+
+.shopmenu:hover .shopmenulink:hover{
+	color: #008fcc;
+	
+}
+
+@media screen and (max-width: 450px){
+	.header_logo_image_1{
+		display: none;
+	}	
+
+	.header_logo_image_2{		
+		position: absolute;
+		display: block;
+		top: 0px;
+		left: -150px;
+		width: 675x;
+		padding-left: 45%;
+		padding-right: 25%;
+		height: 79px;
+		background: url("../images/curvedsstyle.png") 100% 50% no-repeat;
+		background-position: right top;
+		background-size: auto 100%;
+	}	
+}
+
+@media screen and (max-width: 350px){
+	.header_logo_image_1{
+		display: none;
+	}	
+
+	.header_logo_image_2{		
+		position: absolute;
+		display: block;
+		top: 0px;
+		left: -110px;
+		width: 675x;
+		
+	}	
+}
+
+.directorcontenttext {
+	margin-top: 7%;
+}
+
+.general {
+
+}
+
+.followus h3, .contactus h3, .ourapps h3, .mailus h3 {
+	color:#0096d6;
+}
+
+.followus, .contactus, .ourapps, .mailus{
+	color:grey;
+}
+
+
+.white {
+	color: white;
+	background-color: white;
+}
+
+.contactuscontent {
+	height: 500px;
+}
+
+.contactusheading {	
+	margin-bottom: 10px;
+	
+	background-color: #8c8c8c;
+	border-radius: 5px;
+}
+
+.contactustext {
+	color:black;
+	font-size: 25px;
+}
+
+
+
+input[type="text"], 
+textarea, 
+textarea.form-control {
+	height: 50px;
+    margin: 0;
+    padding: 0 20px;
+    vertical-align: middle;
+    background: #f8f8f8;
+    border: 3px solid #ddd;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 50px;
+    color: #888;
+    -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px;
+    -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none;
+    -o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
+}
+
+textarea,textarea.form-control {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	line-height: 30px;
+}
+
+input[type="text"]:focus, 
+textarea:focus, 
+textarea.form-control:focus {
+	outline: 0;
+	background: #fff;
+    border: 3px solid #ccc;
+    -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none;
+}
+
+input[type="text"]:-moz-placeholder, textarea:-moz-placeholder, textarea.form-control:-moz-placeholder { color: #888; }
+input[type="text"]:-ms-input-placeholder, textarea:-ms-input-placeholder, textarea.form-control:-ms-input-placeholder { color: #888; }
+input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placeholder, textarea.form-control::-webkit-input-placeholder { color: #888; }
+
+
+
+button.btn {
+	height: 50px;
+    margin: 0;
+    padding: 0 20px;
+    vertical-align: middle;
+    background: #0096d6;
+    border: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 50px;
+    color: #fff;
+    -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px;
+    text-shadow: none;
+    -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none;
+    -o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
+}
+
+button.btn:hover { opacity: 0.6; color: #fff; }
+
+button.btn:active { outline: 0; opacity: 0.6; color: #fff; -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none; }
+
+button.btn:focus { outline: 0; opacity: 0.6; background: #19b9e7; color: #fff; }
+
+button.btn:active:focus, button.btn.active:focus { outline: 0; opacity: 0.6; background: #19b9e7; color: #fff; }
+
+/* Form */
+
+.form-box {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-top: 30px;
+	border-radius: 10px;
+	background-color: black;
+	box-shadow: 0px 0px 40px #888888;
+}
+
+.form-top {
+	overflow: hidden;
+	padding: 10px 25px 0px 25px;
+	background: #0096d6;
+	color: white;
+	-moz-border-radius: 4px 4px 0 0; -webkit-border-radius: 4px 4px 0 0; border-radius: 4px 4px 0 0;
+	text-align: left;
+}
+
+.form-top-left {
+	float: left;
+	width: 75%;
+}
+
+.form-top-left h3 { margin-top: 0; }
+
+.form-top-right {
+	float: left;
+	width: 25%;
+	padding-top: 5px;
+	font-size: 66px;
+	color: #ddd;
+	line-height: 100px;
+	text-align: right;
+}
+
+.form-bottom {
+	padding: 25px 25px 30px 25px;
+	background: #eee;
+	-moz-border-radius: 0 0 4px 4px; -webkit-border-radius: 0 0 4px 4px; border-radius: 0 0 4px 4px;
+	text-align: left;
+}
+
+.form-bottom form textarea {
+	height: 100px;
+}
+
+.form-bottom form .input-error {
+	border-color: #19b9e7;
+}
+
+.smallerhr{
+	width: 70%;
+}
+
+.title , .imgdesc{
+	color: #888888;
+}
+
+.knowmorebutton{
+	display: none;
+	background-color: #0096d6;	
+	color: white;
+	border: 0;
+	font-size: 12px; 
+	padding: 8px;
+	padding-left: 20px;
+	padding-right: 15px;
+	border-radius: 5px;
+}
+
+.glyphicon {
+	margin-left:10px;
+	color: white;
+}
+
+.optimusslideimage {
+	position: relative;
+}
+
+.optimusbutton {
+	display: block;
+	position: absolute;
+	left: 222px;
+	top:317px;
+}
+
+.triffleslideimage {
+	position: relative;
+}
+
+.trifflebutton {
+	position: absolute;
+	left: 64px;
+	top:317px;
+
+}
+
+.vogueslideimage {
+	position: relative;
+}
+
+.voguebutton {
+	position: absolute;
+	right: 68px;
+	top:322px;
+}
+
+.airvitaminslideimage {
+	position: relative;
+}
+
+.airvitaminbutton {
+	position: absolute;
+	right: 285px; /*364 center*/
+	top:322px;
+}
+
+.chiefslideimage {
+	position: relative;
+}
+
+.chiefbutton {
+	position: absolute;
+	left: 64px;
+	top:317px;
+}
+
+@media screen and (min-width:1289px) and (max-width: 1367px){
+
+	.optimusbutton {
+	display: block;
+	position: absolute;
+	left: 190px;
+	top:317px;
+}
+
+	.trifflebutton {
+	position: absolute;
+	left: 39px;
+	top:317px;
+}
+
+	.voguebutton {
+	position: absolute;
+	right: 43px;
+	top:322px;
+}
+
+	.airvitaminbutton {
+	position: absolute;
+	right: 260px; 
+	top:322px;
+} 
+}
+
+@media screen and (min-width:1050px) and (max-width: 1281px){
+
+	.optimusbutton {
+	display: block;
+	position: absolute;
+	left: 150px;
+	top:317px;
+}
+
+	.trifflebutton {
+	position: absolute;
+	left: 4px;
+	top:317px;
+}
+
+	.voguebutton {
+	position: absolute;
+	right: 13px;
+	top:322px;
+}
+
+	.airvitaminbutton {
+	position: absolute;
+	right: 220px; 
+	top:322px;
+} 
+}
+
+
+.knowmorebutton:hover{
+	opacity: .8;
+}
+
+.optimusslideimage, .vogueslideimage, .chiefslideimage, .airvitaminslideimage, .triffleslideimage {
+	 -webkit-transition: opacity 1s ease-in-out;
+	  -moz-transition: opacity 1s ease-in-out;
+	  -o-transition: opacity 1s ease-in-out;
+	  transition: opacity 1s ease-in-out;
+}
+
+.text-right {
+	font-size: 12px;
+}
+
+.category {
+	color: #404040;
+	font-weight: bold;
+}
+
+/*
+.leftsidestrip {
+	position: absolute;
+	width:155px;
+	height: 178%;
+	background-color: #f2f2f2;
+	z-index: 1;
+	left: 0px;
+	top: 102px;
+}
+
+.rightsidestrip {
+	position: absolute;
+	width:155px;
+	height: 178%;
+	background-color: #f2f2f2;
+	z-index: 1;
+	right: 0px;
+	top: 102px;
+}*/
+
+
+@media screen and (max-width: 1025px){
+
+	.optimusbutton {
+	display: block;
+	position: absolute;
+	left: 58px;
+	top:250px;
+}
+
+	.trifflebutton {
+	position: absolute;
+	left: 4px;
+	top:250px;
+}
+
+	.voguebutton {
+	position: absolute;
+	right: 13px;
+	top:250px;
+}
+
+	.airvitaminbutton {
+	position: absolute;
+	right: 212px; 
+	top:250px;
+}
+
+	.followus, .contactus, .mailus, .ourapps{
+		font-size: 9px;
+	}
+
+	.followus h3, .contactus h3, .mailus h3, .ourapps h3{
+		font-size: 15px;
+	}
+}
+
+.viewfullspecs {
+
+	 font-size:12px;
+	 color:#007db3;
+	 font-weight:bold;
+}
+
+
+@media screen and (max-width: 1367px) and (min-width: 1320px){
+	.optimusproductpic {
+		margin-top: 20px;
+		margin-bottom: 0px; 
+	}
+
+	.triffleproductpic {
+		margin-top: 20px;
+		margin-bottom: 0px; 
+	}
+
+	.vogueproductpic {
+		margin-top: 20px;
+		margin-bottom: 0px; 
+	}
+
+	.chiefproductpic {
+		margin-top: 20px;
+		margin-bottom: 0px; 
+	}
+}
+
+@media screen and (max-width: 1281px) and (min-width: 1240px){
+	.optimusproductpic {
+		margin-top: 30px;
+		margin-bottom: 0px; 
+	}
+
+	.triffleproductpic {
+		margin-top: 30px;
+		margin-bottom: 0px; 
+	}
+
+	.vogueproductpic {
+		margin-top: 30px;
+		margin-bottom: 0px; 
+	}
+
+	.chiefproductpic {
+		margin-top: 30px;
+		margin-bottom: 0px; 
+	}
+
+}
+
+@media screen and (max-width: 1025px) and (min-width: 1000px){
+	.optimusproductpic {
+		margin-top: 60px;
+		margin-bottom: 0px; 
+	}
+
+	.triffleproductpic {
+		margin-top: 60px;
+		margin-bottom: 0px; 
+	}
+
+	.vogueproductpic {
+		margin-top: 60px;
+		margin-bottom: 0px; 
+	}
+
+	.chiefproductpic {
+		margin-top: 60px;
+		margin-bottom: 0px; 
+	}
+
+}
+
+@media screen and (max-width:769px) and (min-width: 501px) {
+	.w3-row-padding > .w3-col{
+		padding: 0px;
+		margin-left: 15px; 
+	}	
+
+	.optimusbutton {
+	display: block;
+	position: absolute;
+	left: 3px;
+	top:185px;
+	font-size: 8px;
+}
+
+	.trifflebutton {
+	position: absolute;
+	left: 4px;
+	top:185px;
+	font-size: 8px;
+}
+
+	.voguebutton {
+	position: absolute;
+	right: 13px;
+	top:185px;
+	font-size: 8px;
+}
+
+	.airvitaminbutton {
+	position: absolute;
+	right: 172px; 
+	top:185px;
+	font-size: 8px;
+}
+
+}
+
+@media screen and (max-width: 1023px) and (min-width:400px)
+{	
+	.facebookicon, .twittericon, .googleplusicon{
+		max-width: 20%;
+	}
+}
+
+@media screen and (max-width: 399px) and (min-width:300px)
+{	
+	.facebookicon, .twittericon, .googleplusicon{
+		max-width: 30%;
+	}
+}
+
+@media screen and (max-width: 500px) and (min-width:100px){
+	.knowmorebutton{
+		display: none;
+	}
+
+	.optimuslogotext{
+		font-size: 100%;
+	}
+
+	.trifflelogotext{
+		font-size: 100%;	
+	}
+
+	.airvitaminlogotext{
+		font-size: 100%;
+	}
+
+	.chieflogotext{
+		font-size: 100%;
+	}
+
+	.voguelogotext{
+		font-size: 100%;
+	}
+}

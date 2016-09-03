@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Midas Air - Home</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">		
+	<!-- <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap_modified.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/lightslider.css">
+	<script type="text/javascript" src="js/lightslider.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="css/w3.css">
+	<link rel="stylesheet" type="text/css" href="css/hover.css">
+	<script>
+    	 $(document).ready(function() {
+			$("#content-slider").lightSlider({
+                loop:true,
+                keyPress:true,
+                pager:false
+            });            
+		});
+    </script>	
+    <script src="https://use.fontawesome.com/c04e7238b0.js"></script>
+</head>
+
+<body>	
+<div class="bodyContent">
+	<nav class="navbar navbar-inverse headnavigationmenu">	
+		<div class="container-fluid">						
+			<div class="navbar-header">				
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigationmenu">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>			
+					<span class="icon-bar"></span>
+				</button>
+				<div class="header_logo">
+					<a class="header_logo_link" href="#"><img class="img-responsive center-block header_logo_image_1" src="images/logo_white_298x170.png"><img class="img-responsive center-block header_logo_image_2" src="images/logo_white_149x85.png"></a>
+				</div>				
+			</div>
+			<div class="collapse navbar-collapse" id="navigationmenu">
+				<ul class="nav navbar-nav navbar-right" style="padding-right:5%;">
+					<li class="navigationitem aboutusmenu"><a href="html/aboutus.html" class="aboutusmenulink">ABOUT US</a></li>
+					<li class="navigationitem productsmenu dropdown"><a href="#" class="dropdown-toggle productsmenulink" data-toggle="dropdown">PRODUCTS <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+					        <li><a href="html/optimus.html">Optimus</a></li>
+					        <li><a href="html/triffle.html">Triffle</a></li>
+					        <li><a href="html/vogue.html">Vogue</a></li>
+					        <li><a href="html/chief.html">Chief</a></li>
+					        <li><a href="#">Air Vitamin</a></li>
+				        </ul>
+					</li>
+					<li class="navigationitem servicesmenu"><a href="html/services.html" class="servicesmenulink">SERVICE & SUPPORT</a></li>
+					<li class="navigationitem shopmenu"><a href="" class="shopmenulink">SHOP</a></li>
+				</ul>
+			</div>
+		</div>		
+	</nav>
+
+	
+	<div class="w3-content" style="max-width:1400px">	 
+		<div class="optimusslideimage">	
+	 		<img class="mySlides img-responsive center-block" src="images/Optimus_Updated_Modified_1280x540_1.png">	
+	 		<button class="optimusbutton knowmorebutton" onclick="window.location.href='html/optimus.html'">To know more about OPTIMUS, click here<span class="glyphicon glyphicon-arrow-right"></span></button>
+	 	</div>
+	 	<div class="triffleslideimage">
+	 		<img class="mySlides img-responsive center-block" src="images/Triffle_Updated_Modified_1280x540_1.png"><button class="trifflebutton knowmorebutton" onclick="window.location.href='html/triffle.html'">To learn more about TRIFFLE, click here<span class="glyphicon glyphicon-arrow-right"></span></button>
+	 	</div>
+	 	<div class="vogueslideimage">
+	 		<img class="mySlides img-responsive center-block" src="images/Vogue_Updated_Modified_1280x540.png"><button class="voguebutton knowmorebutton" onclick="window.location.href='html/vogue.html'">To learn more about VOGUE, click here<span class="glyphicon glyphicon-arrow-right"></span></button>
+	 	</div>
+	 	<div class="airvitaminslideimage">
+	 		<img class="mySlides img-responsive center-block" src="images/AirVitamin_Updated_Modified_1280x540.png"><button class="airvitaminbutton knowmorebutton" onclick="window.location.href='#'">To learn more about AIR VITAMIN, click here<span class="glyphicon glyphicon-arrow-right"></span></button>
+	 	</div>
+	 	<div class="chiefslideimage">
+	 		<img class="mySlides img-responsive center-block" src="images/Optimus_1280x540.png"><button class="chiefbutton knowmorebutton" onclick="window.location.href='html/chief.html'">To learn more about CHIEF, click here<span class="glyphicon glyphicon-arrow-right"></span></button>
+	 	</div>
+		<br>
+		<div class="w3-row-padding w3-section">
+			<div class="col-sm-1"></div>
+		    <div class="w3-col s2 m2">
+		      <img class="demo w3-border w3-hover-shadow optimusThumbnail" src="images/Optimus_569x240_bw.jpg" onmouseover="changeoptimusimg()" onmouseout="resetoptimusimg()" style="width:100%" onclick="currentDiv(1);displayoptimusbutton();">
+		    </div>
+		    <div class="w3-col s2 m2">
+		      <img class="demo w3-border w3-hover-shadow triffleThumbnail" src="images/Triffle_569x240_bw.jpg" onmouseover="changetriffleimg()" onmouseout="resettriffleimg()" style="width:100%" onclick="currentDiv(2);displaytrifflebutton();">
+		    </div>
+		    <div class="w3-col s2 m2">
+		      <img class="demo w3-border w3-hover-shadow vogueThumbnail" src="images/Vogue_569x240_bw.jpg" onmouseover="changevogueimg()" onmouseout="resetvogueimg()" style="width:100%" onclick="currentDiv(3);displayvoguebutton();">
+		    </div>
+		     <div class="w3-col s2 m2">
+		      <img class="demo w3-border w3-hover-shadow airvitaminThumbnail" src="images/AirVitamin_569x240_bw.jpg" onmouseover="changeairvitaminimg()" onmouseout="resetairvitaminimg()" style="width:100%" onclick="currentDiv(4);displayairvitaminbutton();">
+		    </div>
+		    <div class="w3-col s2 m2">
+		      <img class="demo w3-border w3-hover-shadow optimusThumbnail" src="images/Optimus_569x240_bw.jpg" onmouseover="changeoptimusimg()" onmouseout="resetoptimusimg()" style="width:100%" onclick="currentDiv(5);displayoptimusbutton();">
+		    </div>
+		    <div class="col-sm-1"></div>
+		 </div>
+	</div>
+	<br/>
+</div>
+
+<div class="productslist container">	
+	<div class="item">
+            <ul id="content-slider" class="content-slider">
+                <li class="optimuslistitem">
+                	<div class="optimuslistitemdiv">
+	                    <h3 class="text-center optimuslogotext title">OPTIMUS</h3><hr class="center-block center-block smallerhr optimushr">
+	                    <a href="html/optimus.html"><img class="img-responsive center-block optimuslogo hvr-grow" src="images/Optimus_logo.png" onmouseover="changeoptimushrcolor()" onmouseout="resetoptimushrcolor()"></a>
+	                    <!-- <img src="http://placehold.it/40x40" class="img-responsive center-block optimusicons"> 
+	                    <img src="http://placehold.it/40x40" class="img-responsive center-block optimusicons">
+	                    <img src="http://placehold.it/40x40" class="img-responsive center-block optimusicons">
+	                    <img src="http://placehold.it/40x40" class="img-responsive center-block optimusicons">
+	                    <img src="http://placehold.it/40x40" class="img-responsive center-block optimusicons"> -->
+	                    <hr class="center-block smallerhr optimushr">
+	                    <p class="text-center optimusdesc imgdesc"><em>A well crafted air purifier meant to serve you a healthier and purified environment</em></p>
+                    </div>
+                </li>
+                <li>
+                    <h3 class="text-center trifflelogotext title">TRIFFLE</h3><hr class="center-block smallerhr trifflehr">
+                    <a href="html/triffle.html"><img class="img-responsive center-block hvr-grow" src="images/Triffle_logo.png" onmouseover="changetrifflehrcolor()" onmouseout="resettrifflehrcolor()"></a>
+                    <hr class="center-block smallerhr trifflehr">
+                    <p class="text-center triffledesc imgdesc"><em>Designed to make every room a healthier and safer place to breathe</em></p>
+                </li>
+                <li>
+                    <h3 class="text-center airvitaminlogotext title">AIR VITAMIN</h3><hr class="center-block smallerhr airvitaminhr">
+                    <a href="#"><img class="img-responsive center-block hvr-grow" src="images/Air Vitamin_logo.png" onmouseover="changeairvitaminhrcolor()" onmouseout="resetairvitaminhrcolor()"></a>
+                    <hr class="center-block smallerhr airvitaminhr">
+                    <p class="text-center airvitamindesc imgdesc"><em>Plug & Play for a cleaner, healthier and safer environment</em></p>
+                </li>
+                <li>
+                    <h3 class="text-center chieflogotext title">CHIEF</h3><hr class="center-block smallerhr chiefhr">
+                    <a href="html/chief.html"><img class="img-responsive center-block hvr-grow" src="images/Chief_logo.png" onmouseover="changechiefhrcolor()" onmouseout="resetchiefhrcolor()"></a>
+                    <hr class="center-block smallerhr chiefhr">
+                    <p class="text-center chiefdesc imgdesc"><em>Lorem ipsum</em></p>
+                </li>
+                <li>
+                    <h3 class="text-center voguelogotext title">VOGUE</h3><hr class="center-block smallerhr voguehr">
+                    <a href="html/vogue.html"><img class="img-responsive center-block hvr-grow" src="images/Vogue_logo.png" onmouseout="resetvoguehrcolor()" onmouseover="changevoguehrcolor()"></a>
+                    <hr class="center-block smallerhr voguehr">
+                    <p class="text-center voguedesc imgdesc"><em>Created to purify air around and take you closer to nature</em></p>
+                </li>
+            </ul>
+        </div>
+</div>
+
+<div class="footer container-fluid">
+<br>
+	<div class="row">
+		<div class="col-md-2"></div>
+		<div class="col-md-2 followus">
+			<h3 class="text-center">FOLLOW US</h3>
+			<hr>
+			<div class="row" style="display:flex;">			
+				
+				<div class="col-md-4 center-block">
+					<img src="images/facebookicon_blue.png" class="img-responsive center-block facebookicon"><br>
+				</div>
+				<div class="col-md-4 center-block">
+					<img src="images/twittericon.png" class="img-responsive center-block twittericon"><br>
+				</div>
+				<div class="col-md-4 center-block">
+					<img src="images/googleplusicon_blue.png" class="img-responsive center-block googleplusicon"><br>
+				</div>				
+				
+			</div>
+			<br>
+		</div>
+		<div class="col-md-2 contactus">
+			<h3 class="text-center">CONTACT US</h3>
+			<hr>
+			<div class="text-center">
+			<span class="glyphicon glyphicon-phone-alt"></span>&nbsp; +91-0123456789 
+			</div>
+			<br>
+		</div>
+		<div class="col-md-2 mailus">
+			<h3 class="text-center">MAIL US AT</h3>
+			<hr>
+			<div class="text-center">
+			<span class="glyphicon glyphicon-envelope"></span>&nbsp;midasair@midas.com
+			</div>
+			<br>
+		</div>
+		<div class="col-md-2 ourapps">
+			<h3 class="text-center">OUR APPS</h3>
+			<hr>
+			<div class="row" style="display:flex;">			
+				<div class="col-md-2"></div>
+				<div class="col-md-4 center-block">
+					<img src="http://placehold.it/50x50" class="img-responsive center-block"><br>
+				</div>				
+				<div class="col-md-4 center-block">
+					<img src="http://placehold.it/50x50" class="img-responsive center-block"><br>
+				</div>				
+				<div class="col-md-2"></div>
+			</div>
+			<br>
+		</div>
+		<div class="col-md-2"></div>
+	</div>
+</div>
+
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+     dots[i].className = dots[i].className.replace(" w3-border-red", "");
+  }
+  x[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " w3-border-red"; 
+}
+</script>
+
+</body>
+</html>
